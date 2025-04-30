@@ -1,5 +1,5 @@
 import { forwardRef } from "react"
-import { DoubleSpinBox, SpinBoxProps, SpinBoxRangeError } from "./doubleSpinBox"
+import { DoubleSpinBox, SpinBoxProps, SpinBoxRangeError } from "./DoubleSpinBox"
 import { useTranslation } from "react-i18next";
 
 

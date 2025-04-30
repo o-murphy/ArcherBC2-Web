@@ -1,5 +1,5 @@
 import { Appbar, Divider, FAB, Menu, useTheme } from "react-native-paper";
-import { md3PaperIconSource } from "../icons/md3PaperIcons";
+import { md3PaperIconSource } from "../icons/MD3PaperIcons";
 import { ShareDialogMenuItem } from "../dialogs/ShareDialog";
 import { CloseDialogMenuAction } from "../dialogs/CloseDialog";
 import { FileOpenerService } from "@/hooks/fileService/fileOpener";
@@ -56,12 +56,12 @@ export const FileMenu = () => {
                 />
             }
         >
-            <Menu.Item
+            {/* <Menu.Item
                 leadingIcon={md3PaperIconSource({ name: "file-open" })}
                 disabled
                 onPress={() => { }}
                 title={t("topBar.Create new file")}
-            />
+            /> */}
             <Menu.Item
                 leadingIcon={md3PaperIconSource({ name: "folder-open" })}
                 onPress={onOpenPress}

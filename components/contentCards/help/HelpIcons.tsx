@@ -1,4 +1,4 @@
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 import { help } from "@/components/services/helpService/helpService";
 import { ReactNode } from "react";
 import { StyleSheet } from "react-native";

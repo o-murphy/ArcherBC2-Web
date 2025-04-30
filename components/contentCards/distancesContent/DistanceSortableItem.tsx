@@ -4,8 +4,8 @@ import { Icon, IconButton, Surface, Text, useTheme } from "react-native-paper";
 import { useSortable } from "@dnd-kit/sortable";
 import { StyleSheet, View } from "react-native"; // Import TouchableWithoutFeedback
 import { CSS } from "@dnd-kit/utilities";
-import { ThemedIcon } from "@/components/icons/customIcons";
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { ThemedIcon } from "@/components/icons/CustomIcons";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 import { ToolTipIconButton } from "@/components/IconButtonWithTooltip";
 
 export interface DistanceItemProps {

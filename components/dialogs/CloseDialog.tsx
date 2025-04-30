@@ -14,7 +14,7 @@ import {
 } from "react-native-paper";
 import { ToolTipIconButton } from "@/components/IconButtonWithTooltip";
 import { useTranslation } from "react-i18next";
-import { MD3PaperIcon, md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { MD3PaperIcon, md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 
 export const CloseDialogButton = ({
     icon = md3PaperIconSource({ name: "close" }),

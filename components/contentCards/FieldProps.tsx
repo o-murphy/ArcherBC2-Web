@@ -1,4 +1,4 @@
-import { FieldFloatProps, FieldProps } from "@/components/fieldsEdit/fieldEditInput";
+import { FieldFloatProps, FieldProps } from "@/components/fieldsEdit/FieldEditInput";
 
 export const DescriptionFields: FieldProps = {
     profileName: {

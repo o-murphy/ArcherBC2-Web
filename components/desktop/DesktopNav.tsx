@@ -1,5 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
-import EditDialog from './editDialog'; // Your main component
+import EditDialog from './EditDialog'; // Your main component
 
 
 export const SideNav = () => {

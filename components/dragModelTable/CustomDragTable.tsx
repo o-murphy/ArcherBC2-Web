@@ -9,15 +9,15 @@ import {
     Text,
     useTheme,
 } from "react-native-paper";
-import { useProfileFieldState } from "../fieldsEdit/fieldEditInput";
+import { useProfileFieldState } from "../fieldsEdit/FieldEditInput";
 import { CoefRow } from "a7p-js/dist/types";
-import { SpinBoxRange } from "../fieldsEdit/doubleSpinBox";
-import { HelpButton } from "../contentCards/help/helpIcons";
+import { SpinBoxRange } from "../fieldsEdit/DoubleSpinBox";
+import { HelpButton } from "../contentCards/help/HelpIcons";
 import { useHelp } from "../contentCards/help/helpContent";
 import { useTranslation } from "react-i18next";
 import { ToolTipIconButton } from "../IconButtonWithTooltip";
-import { md3PaperIconSource } from "../icons/md3PaperIcons";
-import { LocalizedSpinBox } from "../fieldsEdit/localizedSpinBox";
+import { md3PaperIconSource } from "../icons/MD3PaperIcons";
+import { LocalizedSpinBox } from "../fieldsEdit/LocalizedSpinBox";
 
 const MAX_CUSTOM_ITEM_COUNT = 200;
 

@@ -1,4 +1,4 @@
-import { useProfileFieldState } from "@/components/fieldsEdit/fieldEditInput";
+import { useProfileFieldState } from "@/components/fieldsEdit/FieldEditInput";
 import { ProfileProps } from "@/hooks/fileService/useFileParsing";
 import { useTranslation } from "react-i18next";
 import { Chip } from "react-native-paper";

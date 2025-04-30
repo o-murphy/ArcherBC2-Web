@@ -1,9 +1,9 @@
 import { ScrollView, StyleSheet, View } from "react-native";
 import { Text, Divider } from "react-native-paper";
-import { FieldEdit, FieldEditProps } from "../fieldsEdit/fieldEditInput";
-import { HelpButton } from "./help/helpIcons";
+import { FieldEdit, FieldEditProps } from "../fieldsEdit/FieldEditInput";
+import { HelpButton } from "./help/HelpIcons";
 import { useHelp } from "./help/helpContent";
-import { DescriptionFields } from "./FiedProps";
+import { DescriptionFields } from "./FieldProps";
 import { useTranslation } from "react-i18next";
 import { ContentTitle } from "./ContentTitle";
 

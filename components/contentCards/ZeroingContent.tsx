@@ -4,12 +4,12 @@ import { Text, TextInput } from "react-native-paper";
 import {
     FieldEditFloat,
     FieldEditFloatProps,
-} from "@/components/fieldsEdit/fieldEditInput";
-import ZeroDistanceField from "@/components/fieldsEdit/zeroDistanceField";
+} from "@/components/fieldsEdit/FieldEditInput";
+import ZeroDistanceField from "@/components/fieldsEdit/ZeroDistanceField";
 import { useHelp } from "@/components/contentCards/help/helpContent";
-import { HelpButton } from "@/components/contentCards/help/helpIcons";
-import { ZeroingFloatFields } from "@/components/contentCards/FiedProps";
-import { ThemedIcon, ThemedIconName } from "@/components/icons/customIcons";
+import { HelpButton } from "@/components/contentCards/help/HelpIcons";
+import { ZeroingFloatFields } from "@/components/contentCards/FieldProps";
+import { ThemedIcon, ThemedIconName } from "@/components/icons/CustomIcons";
 import { useTranslation } from "react-i18next";
 import { ContentTitle } from "@/components/contentCards/ContentTitle";
 

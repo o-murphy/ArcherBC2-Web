@@ -9,13 +9,13 @@ import {
 } from "react-native-paper";
 import { useFileHandler } from "@/hooks/fileService/useFileHandler";
 import { useFileContext } from "@/hooks/fileService/fileContext";
-import { DropZoneWeb } from "../dropZone/dropZone";
+import { DropZoneWeb } from "../dropZone/DropZone";
 import { FileOpenerService } from "../../hooks/fileService/fileOpener";
 import { useParseFile } from "@/hooks/fileService/useFileParsing";
 import { useTranslation } from "react-i18next";
 import { LanguageToggle } from "../LanguageToggle";
 import { openLibrary } from "@/utils/openLibrary";
-import { md3PaperIconSource } from "../icons/md3PaperIcons";
+import { md3PaperIconSource } from "../icons/MD3PaperIcons";
 
 const StartDialogDropZone = ({ children }: { children: ReactNode }) => {
     const { fileHandleState, processFile } = useFileHandler(); // Use the custom hook
@@ -53,7 +53,7 @@ const StartDialog = () => {
         <Dialog visible={visible} style={styles.dialog} dismissable={false}>
             <StartDialogDropZone>
                 <TouchableRipple style={styles.touchable} onPress={onOpenPress}>
-                    <Surface elevation={0}>
+                    <View>
                         <Dialog.Title style={styles.dialogTitle}>
                             ArcherBC2
                             <LanguageToggle />
@@ -100,7 +100,7 @@ const StartDialog = () => {
                                 {t("startDialog.OpenLibrary")}
                             </Button>
                         </Dialog.Actions>
-                    </Surface>
+                    </View>
                 </TouchableRipple>
             </StartDialogDropZone>
         </Dialog>

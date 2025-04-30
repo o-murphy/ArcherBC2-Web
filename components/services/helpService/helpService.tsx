@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ScrollView, StyleSheet } from "react-native";
 import { Portal, Dialog, Button, useTheme, Text } from "react-native-paper";
 import { useTranslation } from "react-i18next";
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 import { ToolTipIconButton } from "@/components/IconButtonWithTooltip";
 
 export class HelpDialogService {

@@ -3,9 +3,9 @@ import { TextInput, Text } from "react-native-paper";
 import {
     FieldEditFloat,
     FieldEditFloatProps,
-} from "../fieldsEdit/fieldEditInput";
-import { CartridgeFields } from "./FiedProps";
-import { HelpButton } from "./help/helpIcons";
+} from "../fieldsEdit/FieldEditInput";
+import { CartridgeFields } from "./FieldProps";
+import { HelpButton } from "./help/HelpIcons";
 import { useHelp } from "./help/helpContent";
 import { useTranslation } from "react-i18next";
 import { ContentTitle } from "./ContentTitle";

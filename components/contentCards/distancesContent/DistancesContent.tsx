@@ -1,7 +1,7 @@
 import { ScrollView, StyleSheet } from "react-native";
 import { Text } from "react-native-paper";
 import { useHelp } from "../help/helpContent";
-import { HelpButton } from "../help/helpIcons";
+import { HelpButton } from "../help/HelpIcons";
 import { useTranslation } from "react-i18next";
 import { ContentTitle } from "../ContentTitle";
 import { DistancesListView } from "./DistancesList";

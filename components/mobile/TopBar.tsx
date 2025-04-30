@@ -1,11 +1,11 @@
 import { useThemeToggle } from "@/hooks/useThemeToggle";
-import { md3PaperIconSource } from "../icons/md3PaperIcons";
+import { md3PaperIconSource } from "../icons/MD3PaperIcons";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { FileMenu } from "./fileMenu";
+import { FileMenu } from "./FileMenu";
 import { Appbar, Text } from "react-native-paper";
 import CountryFlag from "react-native-country-flag";
-import { HelpButton } from "../contentCards/help/helpIcons";
+import { HelpButton } from "../contentCards/help/HelpIcons";
 import { useHelp } from "../contentCards/help/helpContent";
 import { View } from "react-native";
 

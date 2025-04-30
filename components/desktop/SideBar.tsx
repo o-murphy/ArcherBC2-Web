@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, View } from "react-native";
 import { Badge, Drawer, useTheme } from "react-native-paper";
-import { ThemedIconName, ThemedTabIcon } from "../icons/customIcons";
+import { ThemedIconName, ThemedTabIcon } from "../icons/CustomIcons";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { ProfileProps } from "@/hooks/fileService/useFileParsing";

@@ -3,13 +3,13 @@ import { Surface, Text } from "react-native-paper";
 import { useFileContext } from "@/hooks/fileService/fileContext";
 import { CloseDialogWidget } from "../dialogs/CloseDialog";
 import { ToolTipIconButton } from "../IconButtonWithTooltip";
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 import { ShareDialogWidget } from "../dialogs/ShareDialog";
 import { FileOpenerService } from "../../hooks/fileService/fileOpener";
 import { LanguageToggle } from "../LanguageToggle";
 import { useTranslation } from "react-i18next";
 import { useResponsiveLayout } from "@/hooks/useResponsiveLayout";
-import { FileMenu } from "../mobile/fileMenu";
+import { FileMenu } from "../mobile/FileMenu";
 import { openLibrary } from "@/utils/openLibrary";
 import { ThemeToggle } from "../ThemeToggle";
 
@@ -47,12 +47,12 @@ const TopBar = () => {
                     <CloseDialogWidget />
                     <View style={styles.separator} />
 
-                    <ToolTipIconButton
+                    {/* <ToolTipIconButton
                         tooltip={t("topBar.Create new file")}
                         icon={md3PaperIconSource({ name: "file-open" })}
                         onPress={() => { }}
                         disabled
-                    />
+                    /> */}
                     <ToolTipIconButton
                         tooltip={t("topBar.OpenFile")}
                         icon={md3PaperIconSource({ name: "folder-open" })}

@@ -8,7 +8,7 @@ import { UrlPayloadHandler } from "@/hooks/fileService/useFileHandler";
 import { useEffect } from "react";
 import { ImageBackground, Platform, StyleSheet } from "react-native";
 import { useTheme } from "react-native-paper";
-import { SideNav } from "@/components/desktop/desktopNav";
+import { SideNav } from "@/components/desktop/DesktopNav";
 
 export const useApplyScrollbarTheme = () => {
     const { colors } = useTheme();

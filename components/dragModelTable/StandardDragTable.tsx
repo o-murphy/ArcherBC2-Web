@@ -7,16 +7,16 @@ import {
     Tooltip,
     useTheme,
 } from "react-native-paper";
-import { useProfileFieldState } from "../fieldsEdit/fieldEditInput";
+import { useProfileFieldState } from "../fieldsEdit/FieldEditInput";
 import { CoefRow, BcType } from "a7p-js/dist/types";
 import { useEffect, useMemo, useState } from "react";
 import { ProfileProps } from "@/hooks/fileService/useFileParsing";
-import { CustomDragRowProps, CustomRowField } from "./customDragTable";
-import { HelpButton } from "../contentCards/help/helpIcons";
+import { CustomDragRowProps, CustomRowField } from "./CustomDragTable";
+import { HelpButton } from "../contentCards/help/HelpIcons";
 import { useHelp } from "../contentCards/help/helpContent";
 import { useTranslation } from "react-i18next";
 import { ToolTipIconButton } from "../IconButtonWithTooltip";
-import { md3PaperIconSource } from "../icons/md3PaperIcons";
+import { md3PaperIconSource } from "../icons/MD3PaperIcons";
 
 const MAX_STANDARD_ITEM_COUNT = 5;
 

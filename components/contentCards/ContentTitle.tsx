@@ -1,4 +1,4 @@
-import { HelpButton } from "./help/helpIcons";
+import { HelpButton } from "./help/HelpIcons";
 import { Text } from "react-native-paper";
 import { StyleSheet } from "react-native";
 import { useHelp } from "./help/helpContent";

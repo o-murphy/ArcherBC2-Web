@@ -1,6 +1,6 @@
 import { useThemeToggle } from "@/hooks/useThemeToggle";
 import { useTheme } from "react-native-paper";
-import { md3PaperIconSource } from "./icons/md3PaperIcons";
+import { md3PaperIconSource } from "./icons/MD3PaperIcons";
 import { ToolTipIconButton } from "./IconButtonWithTooltip";
 import { useTranslation } from "react-i18next";
 

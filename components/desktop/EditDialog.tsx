@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Dimensions, StyleSheet } from "react-native";
 import { Dialog, Surface } from "react-native-paper";
-import SideBar from "./sideBar";
-import TopBar from "./topBar";
+import SideBar from "./SideBar";
+import TopBar from "./TopBar";
 import { useFileContext } from "@/hooks/fileService/fileContext";
 import { ContentNavigator } from "./contentNavigator";
 import { useNavigation } from "@react-navigation/native";

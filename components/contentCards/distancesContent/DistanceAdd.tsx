@@ -1,10 +1,10 @@
-import { DoubleSpinBox } from "@/components/fieldsEdit/doubleSpinBox";
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons"
+import { DoubleSpinBox } from "@/components/fieldsEdit/DoubleSpinBox";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons"
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, View } from "react-native"
 import { FAB } from "react-native-paper"
-import { DistancesFloatFields } from "../FiedProps";
+import { DistancesFloatFields } from "../FieldProps";
 import { useFileContext } from "@/hooks/fileService/fileContext";
 import { ParsedData } from "@/hooks/fileService/useFileParsing";
 import { useResponsiveLayout } from "@/hooks/useResponsiveLayout";

@@ -3,7 +3,8 @@ import { ToolTipIconButton } from "./IconButtonWithTooltip";
 import { useTranslation } from "react-i18next";
 import CountryFlag from "react-native-country-flag";
 
-export const LanguageToggle = () => {
+
+export const LanguageToggle = ({ style }: { style?: any }) => {
     const { i18n, t } = useTranslation();
     const [currentLang, setCurrentLang] = useState<"en" | "ua">(() =>
         i18n.language === "ua" ? "ua" : "en",
@@ -28,6 +29,7 @@ export const LanguageToggle = () => {
                 />
             )}
             onPress={toggleLanguage}
+            style={style}
         />
     );
 };

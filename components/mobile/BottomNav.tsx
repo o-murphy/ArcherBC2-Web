@@ -10,9 +10,9 @@ import {
 } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { BottomNavigation, Surface, Text, useTheme } from "react-native-paper";
-import { ThemedIconName, ThemedTabIcon } from "../icons/customIcons";
+import { ThemedIconName, ThemedTabIcon } from "../icons/CustomIcons";
 import { useFileContext } from "@/hooks/fileService/fileContext";
-import { TopBar } from "@/components/mobile/topBar";
+import { TopBar } from "@/components/mobile/TopBar";
 import { useTranslation } from "react-i18next";
 import DescriptionContent from "@/components/contentCards/DescriptionContent";
 import RifleContent from "@/components/contentCards/RifleContent";

@@ -11,7 +11,7 @@ import {
 } from "react-native-paper";
 import { ToolTipIconButton } from "@/components/IconButtonWithTooltip";
 import { encodeToUrl } from "@/hooks/fileService/useFileParsing";
-import { md3PaperIconSource } from "@/components/icons/md3PaperIcons";
+import { md3PaperIconSource } from "@/components/icons/MD3PaperIcons";
 import { copyToClipboard } from "@/utils/copyToClip";
 import { toast } from "@/components/services/toastService/toastService";
 import { useTranslation } from "react-i18next";

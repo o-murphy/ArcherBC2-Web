@@ -1,10 +1,10 @@
 import { useFileContext } from "@/hooks/fileService/fileContext";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { HelperText, TextInput, TextInputProps } from "react-native-paper";
-import { SpinBoxProps } from "./doubleSpinBox";
+import { SpinBoxProps } from "./DoubleSpinBox";
 import { View, ViewStyle } from "react-native";
 import { ProfileProps } from "@/hooks/fileService/useFileParsing";
-import { LocalizedSpinBox } from "./localizedSpinBox";
+import { LocalizedSpinBox } from "./LocalizedSpinBox";
 
 export function useProfileFields<K extends keyof ProfileProps>(
     fields: K[],

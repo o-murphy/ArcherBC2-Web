@@ -1,16 +1,16 @@
 import { ScrollView, StyleSheet, View } from "react-native";
 import { Text, SegmentedButtons, TextInput } from "react-native-paper";
-import StandardDragTable from "../dragModelTable/standardDragTable";
-import CustomDragTable from "../dragModelTable/customDragTable";
+import StandardDragTable from "../dragModelTable/StandardDragTable";
+import CustomDragTable from "../dragModelTable/CustomDragTable";
 import {
     FieldEditFloat,
     FieldEditFloatProps,
     useProfileFieldState,
-} from "../fieldsEdit/fieldEditInput";
+} from "../fieldsEdit/FieldEditInput";
 import { BcType, Profile } from "a7p-js/dist/types";
-import { HelpButton } from "./help/helpIcons";
+import { HelpButton } from "./help/HelpIcons";
 import { useHelp } from "./help/helpContent";
-import { BulletFloatFields } from "./FiedProps";
+import { BulletFloatFields } from "./FieldProps";
 import { useTranslation } from "react-i18next";
 import { ContentTitle } from "./ContentTitle";
 
